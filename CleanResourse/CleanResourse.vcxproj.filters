@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{0b847aa5-f60b-4e16-86c6-bddad100e2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{d18b011c-6a90-4971-8023-205a2a161cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{b3566ea7-bb5e-4a0f-98a0-bef0e82d725c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{cf6993f5-afec-4b42-87c8-213c77ae10e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curl">
+      <UniqueIdentifier>{755d393d-492a-4423-a72e-3e9407a01b27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CleanResourse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanResourseDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicFunc.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="UrlCode.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\tinyxml2.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpService.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curl.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curlbuild.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curlrules.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curlver.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\easy.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\mprintf.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\multi.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\stdcheaders.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\system.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\typecheck-gcc.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="deletedir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CleanResourse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanResourseDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicFunc.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="UrlCode.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxml2.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpService.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_function.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deletedir.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CleanResourse.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CleanResourse.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="json\json_internalarray.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CleanResourse.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
